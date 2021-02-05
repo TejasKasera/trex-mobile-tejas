@@ -38,9 +38,6 @@ function preload(){
 function setup() {
   createCanvas(windowWidth,windowHeight);
 
-  var message = "This is a message";
- console.log(message)
-  
   trex = createSprite(50,height-70,20,50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
